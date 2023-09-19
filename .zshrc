@@ -1,6 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+HISTSIZE=10000
+SAVEHIST=10000
+setopt EXTENDED_HISTORY
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -26,6 +30,11 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 source /usr/share/autojump/autojump.sh
+
+# Steps to install
+#  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+# ~/.fzf/install
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
