@@ -35,6 +35,7 @@ extensions=(
     "eamodio.gitlens"                                # GitLens - Git supercharged
     "GitLab.gitlab-workflow"                         # GitLab Workflow
     "Gruntfuggly.todo-tree"                          # Todo Tree
+    "rioj7.command-variable"                         # Command Variable
     "adpyke.codesnap"                                # CodeSnap
     "ms-vscode.hexeditor"                            # HexEditor
     "ryu1kn.partial-diff"                            # Partial Diff
@@ -43,6 +44,7 @@ extensions=(
     "tamasfe.even-better-toml"                       # Even Better Toml
     "ms-vsliveshare.vsliveshare"                     # Live Share
     "nordic-semiconductor.nrf-devicetree"            # Nordic Semiconductor nRF DeviceTree
+    "nordic-semiconductor.nrf-kconfig"               # Nordic Semiconductor nrf Kconfig
     "redhat.vscode-yaml"                             # YAML
     "ms-python.vscode-pylance"                       # Pylance
     "ms-python.black-formatter"                      # Python Black formatter
