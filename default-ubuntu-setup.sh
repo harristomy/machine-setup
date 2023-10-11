@@ -35,6 +35,7 @@ cp --force .zshrc ~/.zshrc
 wget https://raw.githubusercontent.com/harristomyx/machine-setup/main/mdcat.py
 mkdir -p ~/scripts
 cp --force mdcat.py ~/scripts/mdcat.py
+rm mdcat.py
 
 # List of extensions to install
 extensions=(
