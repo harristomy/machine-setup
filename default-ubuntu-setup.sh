@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 07 AUG 2023 - v1.0.0
+# 11 OCT 2023 - v1.1.0
 # This is Harris Tomy's opinionated zsh and VSCode setup for Debian/Ubuntu :) have fun.
 # Note: Run source ~/.zshrc after the script is finished, or open a new zsh shell.
 # ! Note: If running this in a Docker container, then you will need to attach to the running container in VSCode so that code server is setup
@@ -30,6 +30,11 @@ sudo apt install autojump exa bat less -y
 # It requires the .zshrc file to be in the same directory as this install script
 wget https://raw.githubusercontent.com/harristomyx/machine-setup/main/.zshrc
 cp --force .zshrc ~/.zshrc
+
+# Use python rich module to print out MD files with nicer formatting
+wget https://raw.githubusercontent.com/harristomyx/machine-setup/main/mdcat.py
+mkdir -p ~/scripts
+cp --force mdcat.py ~/scripts/mdcat.py
 
 # List of extensions to install
 extensions=(
