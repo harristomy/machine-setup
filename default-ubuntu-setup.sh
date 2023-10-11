@@ -28,6 +28,7 @@ sudo apt install autojump exa bat less -y
 
 # This section can be commented/removed if you are not using my .zshrc
 # It requires the .zshrc file to be in the same directory as this install script
+wget https://raw.githubusercontent.com/harristomyx/machine-setup/main/.zshrc
 cp --force .zshrc ~/.zshrc
 
 # List of extensions to install
