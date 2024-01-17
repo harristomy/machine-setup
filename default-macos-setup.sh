@@ -2,7 +2,7 @@
 
 # 15 OCT 2023 - v0.1.0
 # This is Harris Tomy's opinionated zsh and VSCode setup for macOS :) have fun.
-
+echo "Do not run this in home directory please"
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
@@ -22,6 +22,7 @@ brew install autojump eza bat less
 # It requires the .zshrc file to be in the same directory as this install script
 wget https://raw.githubusercontent.com/harristomyx/machine-setup/main/.maczshrc
 cp --force .maczshrc ~/.zshrc
+rm .maczshrc
 
 # Use python rich module to print out MD files with nicer formatting
 wget https://raw.githubusercontent.com/harristomyx/machine-setup/main/mdcat.py

@@ -7,6 +7,7 @@
 # !       and the extensions can be installed
 
 # Install zsh
+echo "Do not run this in home directory please"
 sudo apt install zsh -y
 sudo chsh -s $(which zsh)
 
@@ -29,6 +30,7 @@ sudo apt install autojump exa bat less -y
 # It requires the .zshrc file to be in the same directory as this install script
 wget https://raw.githubusercontent.com/harristomyx/machine-setup/main/.zshrc
 cp --force .zshrc ~/.zshrc
+rm .zshrc
 
 # Use python rich module to print out MD files with nicer formatting
 wget https://raw.githubusercontent.com/harristomyx/machine-setup/main/mdcat.py
