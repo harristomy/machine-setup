@@ -12,4 +12,4 @@ sudo update-alternatives --install /usr/bin/nvim nvim "${CUSTOM_NVIM_PATH}" 110
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+git clone https://github.com/NvChad/starter ~/.config/nvim --depth 1 && nvim
