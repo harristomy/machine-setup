@@ -21,7 +21,7 @@ git clone https://github.com/marlonrichert/zsh-autocomplete.git  ${ZSH_CUSTOM:-~
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # Other utils
-sudo apt install autojump exa bat less -y
+sudo apt install autojump eza bat less -y
 
 # Compilers, package managers, etc TODO: Add rust/cargo utils here
 # sudo apt install npm 
