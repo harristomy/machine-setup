@@ -58,10 +58,10 @@ extensions=(
     "nordic-semiconductor.nrf-devicetree"            # Nordic Semiconductor nRF DeviceTree
     "nordic-semiconductor.nrf-kconfig"               # Nordic Semiconductor nrf Kconfig
     "redhat.vscode-yaml"                             # YAML
-    "ms-python.vscode-pylance"                       # Pylance
-    "ms-python.black-formatter"                      # Python Black formatter
+    "charliermarsh.ruff"                             # Ruff
     "ms-python.python"                               # Python
     "twxs.cmake"                                     # CMake
+    "cheshirekow.cmake-format"                       # cmake-format
     "llvm-vs-code-extensions.vscode-clangd"          # Clangd
     "matepek.vscode-catch2-test-adapter"             # Catch2 Test runner
     "ms-vscode.cpptools"                             # C/C++ Tools
