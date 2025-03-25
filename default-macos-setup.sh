@@ -2,7 +2,7 @@
 
 # 15 OCT 2023 - v0.1.0
 # This is Harris Tomy's opinionated zsh and VSCode setup for macOS :) have fun.
-echo "Do not run this in home directory please"
+echo -e "\e[3;4;36mDo not run this in home directory please\e[0m"
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
@@ -65,9 +65,10 @@ installed=0
 
 for extension in "${extensions[@]}"; do
     code --install-extension "$extension" >/dev/null 2>&1
+    rc=$(echo $?)
     installed=$((installed + 1))
-    printf "Installed: %s (%d/%d)\n" "$extension" "$installed" "$total"
+    printf "Installed: %s (%d/%d) rc:%d\n" "$extension" "$installed" "$total" "$rc"
 done
 
 # Print completion message
-echo "\e[32mInstallation completed.\e[0m"
+echo -e "\e[32mInstallation completed.\e[0m"

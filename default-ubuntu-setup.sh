@@ -7,7 +7,7 @@
 # !       and the extensions can be installed
 
 # Install zsh
-echo "Do not run this in home directory please"
+echo -e "\e[3;4;36mDo not run this in home directory please\e[0m"
 sudo apt install zsh -y
 sudo chsh -s $(which zsh)
 
@@ -74,9 +74,10 @@ installed=0
 
 for extension in "${extensions[@]}"; do
     code --install-extension "$extension" >/dev/null 2>&1
+    rc=$(echo $?)
     installed=$((installed + 1))
-    printf "Installed: %s (%d/%d)\n" "$extension" "$installed" "$total"
+    printf "Installed: %s (%d/%d) rc:%d\n" "$extension" "$installed" "$total" "$rc"
 done
 
 # Print completion message
-echo "\e[32mInstallation completed.\e[0m"
+echo -e "\e[32mInstallation completed.\e[0m"
