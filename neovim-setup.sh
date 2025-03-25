@@ -8,11 +8,12 @@ sudo apt install nodejs npm
 # Rust & cargo installation
 curl https://sh.rustup.rs -sSf | sh
 
-wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
-sudo mv nvim.appimage /usr/local/bin
-chmod u+x /usr/local/bin/nvim.appimage
+NVIM_IMAGE_NAME=nvim-linux-x86_64.appimage
+wget https://github.com/neovim/neovim/releases/download/v0.10.4/${NVIM_IMAGE_NAME}
+sudo mv ${NVIM_IMAGE_NAME} /usr/local/bin
+chmod u+x /usr/local/bin/${NVIM_IMAGE_NAME}
 
-CUSTOM_NVIM_PATH=/usr/local/bin/nvim.appimage # Add this to bash|zshrc
+CUSTOM_NVIM_PATH=/usr/local/bin/${NVIM_IMAGE_NAME} # Add this to bash|zshrc
 sudo update-alternatives --install /usr/bin/nvim nvim "${CUSTOM_NVIM_PATH}" 110
 
 rm -rf ~/.config/nvim
