@@ -6,8 +6,8 @@
 # ! Note: If running this in a Docker container, then you will need to attach to the running container in VSCode so that code server is setup
 # !       and the extensions can be installed
 
+echo -e "\e[3;4;36mRunning Harris' very opinionated setup.\e[0m"
 # Install zsh
-echo -e "\e[3;4;36mDo not run this in home directory please\e[0m"
 sudo apt install zsh -y
 sudo chsh -s $(which zsh)
 
@@ -28,12 +28,12 @@ sudo apt install autojump eza bat less -y
 
 # This section can be commented/removed if you are not using my .zshrc
 # It requires the .zshrc file to be in the same directory as this install script
-wget https://raw.githubusercontent.com/harristomyx/machine-setup/main/.zshrc
-cp --force .zshrc ~/.zshrc
-rm .zshrc
+wget https://raw.githubusercontent.com/harristomy/machine-setup/main/.ubuntuzshrc
+cp --force .ubuntuzshrc ~/.zshrc
+rm .ubuntuzshrc
 
 # Use python rich module to print out MD files with nicer formatting
-wget https://raw.githubusercontent.com/harristomyx/machine-setup/main/mdcat.py
+wget https://raw.githubusercontent.com/harristomy/machine-setup/main/mdcat.py
 mkdir -p ~/scripts
 cp --force mdcat.py ~/scripts/mdcat.py
 rm mdcat.py
