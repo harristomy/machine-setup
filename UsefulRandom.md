@@ -1,5 +1,9 @@
 # Put anything useful and random here
 
+## Debugging
+
+[Displaying arrays in watch window]
+
 ## Opening browser from python script
 
 ```python
@@ -16,8 +20,11 @@ def open_browser(host, port):
 ### Programming Languages
 
 [C++ recommended books]
+[SystemVerilog recommendations]
 
 ## Links
 
-[Measuring stack usage statically and at runtime]: https://interrupt.memfault.com/blog/measuring-stack-usage
 [C++ recommended books]: https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list/388282#388282
+[Displaying arrays in watch window]: https://github.com/microsoft/vscode-cpptools/issues/172#issuecomment-280520910
+[Measuring stack usage statically and at runtime]: https://interrupt.memfault.com/blog/measuring-stack-usage
+[SystemVerilog recommendations]: https://www.reddit.com/r/FPGA/comments/suc289/how_can_i_properly_learn_system_verilog/
