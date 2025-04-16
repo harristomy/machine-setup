@@ -15,6 +15,10 @@ def open_browser(host, port):
 ## Memory analysis
 [Measuring stack usage statically and at runtime]
 
+## Containers
+
+- Most comprehensive docker clean command I know so far: `docker system prune --volumes -a -f`
+
 ## Reading
 
 ### Programming Languages
