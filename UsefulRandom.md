@@ -19,6 +19,10 @@ def open_browser(host, port):
 
 - Most comprehensive docker clean command I know so far: `docker system prune --volumes -a -f`
 
+## Repos of interest
+
+[Control]
+
 ## Reading
 
 ### Programming Languages
@@ -29,6 +33,7 @@ def open_browser(host, port):
 ## Links
 
 [C++ recommended books]: https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list/388282#388282
+[Control]: https://github.com/swedishembedded/control
 [Displaying arrays in watch window]: https://github.com/microsoft/vscode-cpptools/issues/172#issuecomment-280520910
 [Measuring stack usage statically and at runtime]: https://interrupt.memfault.com/blog/measuring-stack-usage
 [SystemVerilog recommendations]: https://www.reddit.com/r/FPGA/comments/suc289/how_can_i_properly_learn_system_verilog/
