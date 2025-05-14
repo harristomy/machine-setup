@@ -34,7 +34,7 @@ def open_browser(host, port):
 ## Links
 
 [C++ recommended books]: https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list/388282#388282
-[czkwaka]: https://github.com/qarmin/czkawka
+[czkawka]: https://github.com/qarmin/czkawka
 [Control]: https://github.com/swedishembedded/control
 [Displaying arrays in watch window]: https://github.com/microsoft/vscode-cpptools/issues/172#issuecomment-280520910
 [Measuring stack usage statically and at runtime]: https://interrupt.memfault.com/blog/measuring-stack-usage
