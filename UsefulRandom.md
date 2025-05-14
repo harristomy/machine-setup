@@ -21,8 +21,8 @@ def open_browser(host, port):
 
 ## Repos of interest
 
-[Control]
-[czkawka] - Multi functional app to find duplicates, empty folders, similar images etc.
+- [Control] - Embedded Firmware Control Systems Toolbox (Pure C and GNU Octave)
+- [czkawka] - Multi functional app to find duplicates, empty folders, similar images etc.
 
 ## Reading
 
