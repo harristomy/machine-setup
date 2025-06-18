@@ -28,9 +28,9 @@ def open_browser(host, port):
 
 ### Programming Languages
 
-[C++ recommended books]
-[SystemVerilog recommendations]
-[Rayon - Rust parallel iterator]
+- [C++ recommended books]
+- [SystemVerilog recommendations]
+- [Rayon - Rust parallel iterator]
 
 ## Links
 
