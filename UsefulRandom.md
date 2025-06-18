@@ -30,6 +30,7 @@ def open_browser(host, port):
 
 [C++ recommended books]
 [SystemVerilog recommendations]
+[Rayon - Rust parallel iterator]
 
 ## Links
 
@@ -39,3 +40,4 @@ def open_browser(host, port):
 [Displaying arrays in watch window]: https://github.com/microsoft/vscode-cpptools/issues/172#issuecomment-280520910
 [Measuring stack usage statically and at runtime]: https://interrupt.memfault.com/blog/measuring-stack-usage
 [SystemVerilog recommendations]: https://www.reddit.com/r/FPGA/comments/suc289/how_can_i_properly_learn_system_verilog/
+[Rayon - Rust parallel iterator]: https://crates.io/crates/rayon
