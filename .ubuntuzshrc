@@ -1,6 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+export TERM=xterm-256color
+export COLORTERM=truecolor
+
 HISTSIZE=10000
 SAVEHIST=10000
 setopt EXTENDED_HISTORY
@@ -50,6 +53,6 @@ alias bat="batcat --theme ansi --italic-text always"
 alias mcat="python3 ~/scripts/mdcat.py" This uses Pythons "rich" module to print formatted Markdown in the terminal
 
 export CUSTOM_NVIM_PATH=/usr/local/bin/nvim.appimage
-export COLORTERM=truecolor
+
 # Use starship promp
 # eval "$(starship init zsh)"

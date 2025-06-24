@@ -31,9 +31,8 @@ mkdir -p ~/scripts
 cp --force mdcat.py ~/scripts/mdcat.py
 rm mdcat.py
 
-# List of extensions to install
+# List of extensions to install. Some of these are specific to ARM embedded development
 extensions=(
-    "alexkrechik.cucumberautocomplete"               # Cucumber (Gherkin) Autocomplete
     "medo64.render-crlf"                             # Render Line Endings
     "DavidAnson.vscode-markdownlint"                 # Markdownlint
     "DotJoshJohnson.xml"                             # XML
@@ -41,7 +40,6 @@ extensions=(
     "GitLab.gitlab-workflow"                         # GitLab Workflow
     "Gruntfuggly.todo-tree"                          # Todo Tree
     "rioj7.command-variable"                         # Command Variable
-    "adpyke.codesnap"                                # CodeSnap
     "ms-vscode.hexeditor"                            # HexEditor
     "ryu1kn.partial-diff"                            # Partial Diff
     "streetsidesoftware.code-spell-checker"          # Code Spell Checker
@@ -55,7 +53,6 @@ extensions=(
     "ms-python.python"                               # Python
     "twxs.cmake"                                     # CMake
     "llvm-vs-code-extensions.vscode-clangd"          # Clangd
-    "matepek.vscode-catch2-test-adapter"             # Catch2 Test runner
     "ms-vscode.cpptools"                             # C/C++ Tools
     "marus25.cortex-debug"                           # Cortex-Debug
 )
