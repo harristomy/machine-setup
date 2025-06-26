@@ -13,7 +13,9 @@ wget https://github.com/neovim/neovim/releases/download/v0.10.4/${NVIM_IMAGE_NAM
 sudo mv ${NVIM_IMAGE_NAME} /usr/local/bin
 chmod u+x /usr/local/bin/${NVIM_IMAGE_NAME}
 
-CUSTOM_NVIM_PATH=/usr/local/bin/${NVIM_IMAGE_NAME} # Add this to bash|zshrc
+# TODO: # Overwrite this variable in bash|zshrc file
+CUSTOM_NVIM_PATH=/usr/local/bin/${NVIM_IMAGE_NAME}
+
 sudo update-alternatives --install /usr/bin/nvim nvim "${CUSTOM_NVIM_PATH}" 110
 
 rm -rf ~/.config/nvim
