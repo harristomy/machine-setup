@@ -12,6 +12,8 @@ def open_browser(host, port):
     webbrowser.open("http://{}:{}/".format(host, port))
 ```
 
+Debugging containers: https://www.reddit.com/r/devops/comments/xcrv9p/how_do_you_debug_a_docker_container_of_a_minimal/?tabId=related
+
 ## Memory analysis
 [Measuring stack usage statically and at runtime]
 
