@@ -20,6 +20,7 @@ Debugging containers: https://www.reddit.com/r/devops/comments/xcrv9p/how_do_you
 ## Containers
 
 - Most comprehensive docker clean command I know so far: `docker system prune --volumes -a -f`
+- [Hadolint]- Dockerfile linting
 
 ## Repos of interest
 
@@ -44,6 +45,7 @@ Add your public key into ~/.ssh/authorized_keys on frequently accessed servers t
 [czkawka]: https://github.com/qarmin/czkawka
 [Control]: https://github.com/swedishembedded/control
 [Displaying arrays in watch window]: https://github.com/microsoft/vscode-cpptools/issues/172#issuecomment-280520910
+[Hadolint]: https://github.com/hadolint/hadolint
 [Measuring stack usage statically and at runtime]: https://interrupt.memfault.com/blog/measuring-stack-usage
 [SystemVerilog recommendations]: https://www.reddit.com/r/FPGA/comments/suc289/how_can_i_properly_learn_system_verilog/
 [Rayon - Rust parallel iterator]: https://crates.io/crates/rayon
