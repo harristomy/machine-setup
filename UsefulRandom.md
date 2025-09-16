@@ -1,4 +1,4 @@
-<img width="1387" height="327" alt="image" src="https://github.com/user-attachments/assets/31edb9ca-1e2e-4be9-ab48-085cc66bd14c" /># Put anything useful and random here
+# Put anything useful and random here
 
 ## Debugging
 
