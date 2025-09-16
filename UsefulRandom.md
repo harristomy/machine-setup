@@ -1,4 +1,4 @@
-# Put anything useful and random here
+<img width="1387" height="327" alt="image" src="https://github.com/user-attachments/assets/31edb9ca-1e2e-4be9-ab48-085cc66bd14c" /># Put anything useful and random here
 
 ## Debugging
 
@@ -34,6 +34,12 @@ Debugging containers: https://www.reddit.com/r/devops/comments/xcrv9p/how_do_you
 - [C++ recommended books]
 - [SystemVerilog recommendations]
 - [Rayon - Rust parallel iterator]
+
+## Editors and IDEs
+
+### VSCode
+
+- Set `"search.useIgnoreFiles": false,` in settings.json if you want to include git-ignored files in File Search and Text Search
 
 ## SSH
 
