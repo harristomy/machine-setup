@@ -1,5 +1,13 @@
 # Put anything useful and random here
 
+## Git
+
+- Obtain list of files modified compared to `origin/<branch>`
+```bash
+MODIFIED_FILES=$(git diff-index --name-only origin/$(git rev-parse --abbrev-ref HEAD))
+```
+
+
 ## Debugging
 
 [Displaying arrays in watch window]
