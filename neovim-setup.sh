@@ -9,7 +9,7 @@ sudo apt install nodejs npm -y
 curl https://sh.rustup.rs -sSf | sh
 
 NVIM_IMAGE_NAME=nvim-linux-x86_64.appimage
-wget https://github.com/neovim/neovim/releases/download/v0.10.4/${NVIM_IMAGE_NAME}
+wget https://github.com/neovim/neovim/releases/download/v0.11.4/${NVIM_IMAGE_NAME}
 sudo mv ${NVIM_IMAGE_NAME} /usr/local/bin
 chmod u+x /usr/local/bin/${NVIM_IMAGE_NAME}
 
