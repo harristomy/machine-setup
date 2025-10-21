@@ -4,7 +4,7 @@ mkdir ~/downloads -p
 sudo apt install wget libfuse2 ripgrep fuse -y
 
 # Node & npm installation
-sudo apt install nodejs npm
+sudo apt install nodejs npm -y
 # Rust & cargo installation
 curl https://sh.rustup.rs -sSf | sh
 
