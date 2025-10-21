@@ -44,7 +44,6 @@ extensions=(
     "DavidAnson.vscode-markdownlint"                 # Markdownlint
     "DotJoshJohnson.xml"                             # XML
     "eamodio.gitlens"                                # GitLens - Git supercharged
-    "GitLab.gitlab-workflow"                         # GitLab Workflow
     "Gruntfuggly.todo-tree"                          # Todo Tree
     "rioj7.command-variable"                         # Command Variable
     "ms-vscode.hexeditor"                            # HexEditor
@@ -53,8 +52,6 @@ extensions=(
     "trond-snekvik.gnu-mapfiles"                     # GNU mapfiles (syntax highlighting)
     "tamasfe.even-better-toml"                       # Even Better Toml
     "ms-vsliveshare.vsliveshare"                     # Live Share
-    "nordic-semiconductor.nrf-devicetree"            # Nordic Semiconductor nRF DeviceTree
-    "nordic-semiconductor.nrf-kconfig"               # Nordic Semiconductor nrf Kconfig
     "redhat.vscode-yaml"                             # YAML
     "charliermarsh.ruff"                             # Ruff
     "ms-python.python"                               # Python
