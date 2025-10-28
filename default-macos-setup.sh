@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # 15 OCT 2023 - v0.1.0
+# 29 OCT 2025 - v1.0.0
 # This is Harris Tomy's opinionated zsh and VSCode setup for macOS :) have fun.
 echo -e "\e[3;4;36mRunning Harris' very opinionated setup.\e[0m"
 
@@ -14,7 +15,7 @@ git clone https://github.com/marlonrichert/zsh-autocomplete.git  ${ZSH_CUSTOM:-~
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # Other utils
-brew install autojump eza bat less
+brew install autojump eza bat less fd
 
 # Compilers, package managers, etc TODO: Add rust/cargo utils here
 # sudo apt install npm 
@@ -37,7 +38,6 @@ extensions=(
     "DavidAnson.vscode-markdownlint"                 # Markdownlint
     "DotJoshJohnson.xml"                             # XML
     "eamodio.gitlens"                                # GitLens - Git supercharged
-    "GitLab.gitlab-workflow"                         # GitLab Workflow
     "Gruntfuggly.todo-tree"                          # Todo Tree
     "rioj7.command-variable"                         # Command Variable
     "ms-vscode.hexeditor"                            # HexEditor
@@ -45,16 +45,11 @@ extensions=(
     "streetsidesoftware.code-spell-checker"          # Code Spell Checker
     "trond-snekvik.gnu-mapfiles"                     # GNU mapfiles (syntax highlighting)
     "tamasfe.even-better-toml"                       # Even Better Toml
-    "ms-vsliveshare.vsliveshare"                     # Live Share
-    "nordic-semiconductor.nrf-devicetree"            # Nordic Semiconductor nRF DeviceTree
-    "nordic-semiconductor.nrf-kconfig"               # Nordic Semiconductor nrf Kconfig
     "redhat.vscode-yaml"                             # YAML
     "charliermarsh.ruff"                             # Ruff
     "ms-python.python"                               # Python
-    "twxs.cmake"                                     # CMake
     "llvm-vs-code-extensions.vscode-clangd"          # Clangd
     "ms-vscode.cpptools"                             # C/C++ Tools
-    "marus25.cortex-debug"                           # Cortex-Debug
 )
 
 # Install each extension
