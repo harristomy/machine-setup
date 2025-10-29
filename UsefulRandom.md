@@ -53,6 +53,10 @@ Debugging containers: https://www.reddit.com/r/devops/comments/xcrv9p/how_do_you
 
 Add your public key into ~/.ssh/authorized_keys on frequently accessed servers to prevent password request on every login
 
+## Network routing
+
+[Connect to Two gateways on one machine](https://www.thomas-krenn.com/en/wiki/Two_Default_Gateways_on_One_System)
+
 ## Links
 
 [C++ recommended books]: https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list/388282#388282
