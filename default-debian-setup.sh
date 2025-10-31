@@ -6,7 +6,7 @@ echo -e "\e[3;4;36mRunning Harris' very opinionated setup.\e[0m"
 
 apt modernize-sources -y && apt update && apt clean
 
-apt install build-essential fuse libfuse2 git ninja-build ripgrep wget -y
+apt install build-essential curl fuse libfuse2 git ninja-build ripgrep wget -y
 
 apt install eza less bat autojump -y
 
