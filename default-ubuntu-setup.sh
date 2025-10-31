@@ -28,9 +28,9 @@ sudo apt install autojump eza bat less -y
 
 # This section can be commented/removed if you are not using my .zshrc
 # It requires the .zshrc file to be in the same directory as this install script
-wget https://raw.githubusercontent.com/harristomy/machine-setup/main/.ubuntuzshrc
-cp --force .ubuntuzshrc ~/.zshrc
-rm .ubuntuzshrc
+wget https://raw.githubusercontent.com/harristomy/machine-setup/main/.debian_zshrc
+cp --force .debian_zshrc ~/.zshrc
+rm .debian_zshrc
 
 # Use python rich module to print out MD files with nicer formatting
 wget https://raw.githubusercontent.com/harristomy/machine-setup/main/mdcat.py
