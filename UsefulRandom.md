@@ -23,7 +23,10 @@ def open_browser(host, port):
 Debugging containers: https://www.reddit.com/r/devops/comments/xcrv9p/how_do_you_debug_a_docker_container_of_a_minimal/?tabId=related
 
 ## Memory analysis
-[Measuring stack usage statically and at runtime]
+
+- [Measuring stack usage statically and at runtime]
+- Comprehensive Valgrind: `valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes <path_to_executable>`
+  - Run this with `O0` or `Og` and `-g`
 
 ## Containers
 
