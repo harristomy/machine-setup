@@ -58,8 +58,8 @@ Add your public key into ~/.ssh/authorized_keys on frequently accessed servers t
 
 ## Networking
 
-[High Performance Browser Networking](https://hpbn.co/)
-[Connect to Two gateways on one machine](https://www.thomas-krenn.com/en/wiki/Two_Default_Gateways_on_One_System)
+- [High Performance Browser Networking](https://hpbn.co/)
+- [Connect to Two gateways on one machine](https://www.thomas-krenn.com/en/wiki/Two_Default_Gateways_on_One_System)
 
 ## Links
 
